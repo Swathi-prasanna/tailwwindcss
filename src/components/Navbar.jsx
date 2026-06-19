@@ -38,7 +38,9 @@ const Navbar = () => {
                  </h1>
                  <h2 className="text-7xl italic mb-8 text-[var(--accent)]" style={{fontfamily:"Playfair Display, serif"}}>
                     finally clear.
-                    </h2>               </div>
+                    </h2>   
+                    <h5 className="text-xl leading-10 max-w-xl text-[var(--text-2)]">Clearwave unifies your team's projects, data, and communication into one calm,  focused surface.Less noise, more done.</h5>
+              </div>
             </div>
             
         </div>

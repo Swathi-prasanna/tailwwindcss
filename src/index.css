@@ -8,8 +8,8 @@
       --text-2:#3A5C58;
       --text-3:#6B8C88;
       --border:rgba(13,30,28,0.08);
-      --font-family:"DM Sans", sans-serif;
-      --font-family:"Playfair Display", serif;
+      --font-Family:"DM Sans", sans-serif;
+      --font-Family:"Playfair Display", serif;
 }
 :root{
   --text-2xl:20rem

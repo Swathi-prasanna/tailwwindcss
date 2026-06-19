@@ -1,5 +1,7 @@
 import React from 'react'
 import { GoArrowUp } from "react-icons/go";
+import { MdOutlineArrowRightAlt } from "react-icons/md";
+import { IoIosPlay } from "react-icons/io";
 
 const Navbar = () => {
   return (
@@ -40,6 +42,13 @@ const Navbar = () => {
                     finally clear.
                     </h2>   
                     <h5 className="text-xl leading-10 max-w-xl text-[var(--text-2)]">Clearwave unifies your team's projects, data, and communication into one calm,  focused surface.Less noise, more done.</h5>
+                <div className="flex items-center gap-4">
+                    <button className="bg-[var(--accent)] text-white px-10 py-4 rounded-full shadow-lg hover:bg-[var(--accent-mid)]transition flex items-center justify-center gap-2 whitespace-nowrap">
+                    StartFree -No Card <MdOutlineArrowRightAlt size={20}/>
+                    </button>
+                    <button className="border border-[var(--border)] text-[var(--accent)] px-8 py-4 rounded-full flex items-center justify-center gap-2 whitespace-nowrap">
+                 <IoIosPlay size={18}/> See it in action</button>
+                 </div>
               </div>
             </div>
             

@@ -23,15 +23,15 @@ const Navbar = () => {
                     </button>
                 </div>
             </nav>
-            <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-15 py-20">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-15 py-20">
                 <div className="flex flex-col item-start">
                 <div className="flex items-center gap-2 bg-white border border-[var(--border)]rounded-full px-3 py-2 shadow-sm mb-8">
                     <div className="w-5 h-5 rounded-full bg-[var(--accent)] flex items-center justify-center text-white">
                        <GoArrowUp />
                     </div> 
-                    <h5 className="text-sm text-[var(--text-2)]">Rated 
-                    <h5 className="font-semibold text-[var(--accent)]">{" "}#1 Productivity SaaS</h5>{" "}of 2024
-                    </h5>
+                    <span className="text-sm text-[var(--text-2)]">Rated 
+                    <span className="font-semibold text-[var(--accent)]">{" "}#1 Productivity SaaS</span>{" "}of 2024
+                    </span>
                                    </div>
                 </div>
             </div>

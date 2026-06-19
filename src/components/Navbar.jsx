@@ -2,6 +2,9 @@ import React from 'react'
 import { GoArrowUp } from "react-icons/go";
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 import { IoIosPlay } from "react-icons/io";
+import { IoShieldCheckmarkOutline } from "react-icons/io5";
+import { TbBolt } from "react-icons/tb";
+import { HiUserGroup } from "react-icons/hi";
 
 const Navbar = () => {
   return (
@@ -49,9 +52,13 @@ const Navbar = () => {
                     <button className="border border-[var(--border)] text-[var(--accent)] px-8 py-4 rounded-full flex items-center justify-center gap-2 whitespace-nowrap">
                  <IoIosPlay size={18}/> See it in action</button>
                  </div>
+                 <div className="flex gap-8 mt-12 text-sm text-[var(--text-3)]">
+                    <p><IoShieldCheckmarkOutline /> Soc 2 Certified</p>
+                    <p><TbBolt /> 99.9% Uptime SLA</p>
+                    <p><HiUserGroup /> 50K+ Teams</p>
+                </div>
               </div>
-            </div>
-            
+            </div>   
         </div>
     </section>
   )

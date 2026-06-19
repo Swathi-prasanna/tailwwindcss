@@ -1,6 +1,7 @@
 @import "tailwindcss";
+
 @theme {
-      --accent: #1A7A6E;
+      --accent:#1A7A6E;
       --accent-mid:#2A9D8F;
       --accent-light:#5BBFB5;
       --text-1:#0D1E1C;
@@ -9,4 +10,7 @@
       --border:rgba(13,30,28,0.08);
       --font-family:"DM Sans", sans-serif;
       --font-family:"Playfair Display", serif;
+}
+:root{
+  --text-2xl:20rem
 }

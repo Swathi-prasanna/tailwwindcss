@@ -32,7 +32,10 @@ const Navbar = () => {
                     <span className="text-sm text-[var(--text-2)]">Rated 
                     <span className="font-semibold text-[var(--accent)]">{" "}#1 Productivity SaaS</span>{" "}of 2024
                     </span>
-                                   </div>
+                 </div>
+                 <h1 className="text-7xl font-bold text-gray-900">
+                    Your workflow,
+                 </h1>
                 </div>
             </div>
             

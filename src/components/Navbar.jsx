@@ -23,7 +23,9 @@ const Navbar = () => {
                     </button>
                 </div>
             </nav>
-            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-15 py-20">
+            <div className="max-w-7xl mx-auto px-8 py-20 grid lg:grid-cols-2 gap-10 items-center">
+                <div>
+                                    </div>
                 <div className="flex flex-col item-start">
                 <div className="flex items-center gap-2 bg-white border border-[var(--border)]rounded-full px-3 py-2 shadow-sm mb-8">
                     <div className="w-5 h-5 rounded-full bg-[var(--accent)] flex items-center justify-center text-white">

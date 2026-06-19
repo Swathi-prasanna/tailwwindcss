@@ -33,10 +33,12 @@ const Navbar = () => {
                     <span className="font-semibold text-[var(--accent)]">{" "}#1 Productivity SaaS</span>{" "}of 2024
                     </span>
                  </div>
-                 <h1 className="text-7xl font-bold text-gray-900">
+                 <h1 className="text-7xl font-bold text-gray-500">
                     Your workflow,
                  </h1>
-                </div>
+                 <h2 className="text-7xl italic mb-8 text-[var(--accent)]" style={{fontfamily:"Playfair Display, serif"}}>
+                    finally clear.
+                    </h2>               </div>
             </div>
             
         </div>

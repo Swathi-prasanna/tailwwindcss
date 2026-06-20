@@ -23,13 +23,33 @@ import React from 'react'
                 Trusted by forward-thinking teams at
             </p>
             <div className="flex flex-wrap items-center justify-center gap-6 md:gap-12 mb-20">
-                {["Nexaflow","Meridian", "vanta Labs","Pulsar HQ","Arclight","Korova Co."].map((item,index)=>(<div key={index} className="flex items-center justify-center gap-2 text-gray-500 font-medium">
+                {["Nexaflow","Meridian", "Vanta Labs","Pulsar HQ","Arclight","Korova Co."].map(
+                    (item,index)=>(
+                    <div key={index} className="flex items-center justify-center gap-2 text-gray-500 font-medium">
                     <div className="w-6 h-6 bg-teal-700/10 rounded flex items-center justify-center">
                     <div className="w-3 h-3 bg-teal-700 rounded-sm"></div>
                     </div>
                     {item}
-                </div>))}
+                </div>)
+            )}
+                <div className="text-center mb-16">
+                    <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-teal-700/10 text-teal-700 text-xs font-semibold mb-6">
+                    </div>
+                    <div className="w-1.5 h-1.5 bg-teal-700 rounded-full"></div>
+                    MOBILE APP
+                </div>
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
+                    Your workspace,
+                    <span className="playfair text-teal-700 block italic">
+                        in your pocket
+                    </span>
+                </h2>
+                <p className="mt-6 text-gray-600 max-w-2xl mx-auto">
+                    The Clearwave mobile app brings every dashboard, task,and notification to you -beautifully adapted for any screen.
+                </p>
             </div>
+
+    
         </div>
     </section>
     

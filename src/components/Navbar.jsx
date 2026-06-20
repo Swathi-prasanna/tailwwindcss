@@ -20,12 +20,15 @@ const Navbar = () => {
                         </ul>
                         <div className="flex items-center gap-6">
                             <span className="text-gray-700 font-medium">Sign in</span>
-                            
+                            <button className="btn-primary">
+                                Start Free Trial
+                            </button>
+
                         </div>
 
                     
     </nav>
-  )
+  );
 }
 
 export default Navbar;

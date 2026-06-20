@@ -25,7 +25,8 @@ const Yourwork = () => {
                     </span>
                     </h2>
                     <p className="mt-8 text-lg text-gray-600 leading-8">
-                        Clearwave unifies your team's projects data, and communication into one calm, facused surface.Less noise more done.
+                        Clearwave   unifies    your   team's projects, data, and                                                                
+                        communication into one calm, facused surface.Less noise more done.
                     </p>
                     <div className="flex flex-wrap gap-5 mt-10">
                         <button className="btn-primary flex items-center gap-2">
@@ -48,7 +49,7 @@ const Yourwork = () => {
                         </div>
                      </div>
                     </div>
-                    <div className="relative">
+                    <div className="relative max-w-2xl mx-auto">
                         <div className="card p-8 relative">
                             <div className="flex items-center gap-2 mb-6">
                                 <div className="w-3 h-3 rounded-full bg-red-400"></div>
@@ -93,7 +94,7 @@ const Yourwork = () => {
                              <div className="w-2 h-2 bg-white rounded-full"> </div>
                              <div>
                                 <p className="text-sm font-semibold">New integration</p>
-                                <p className="text-xs text-gray-500">Slack connected just now</p>
+                                <p className="text-sm text-gray-500">Slack connected just now</p>
                              </div>
                         </div>
                     </div>

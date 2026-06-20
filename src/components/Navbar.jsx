@@ -8,6 +8,19 @@ import { HiUserGroup } from "react-icons/hi";
 
 const Navbar = () => {
   return (
+    <nav className="nav-bar py-8 flex justify-between items-center">
+        <h2 className="text-3xl font-bold">
+            clear<span className="text-teal-700">wave</span>
+                    </h2>
+                    <ul className="hidden md:flex gap-10 text-gray-700">
+                        <li>App</li>
+                        <li>Features</li>
+                        <li> Pricing</li>
+                        <li>FAQ</li>
+                        </ul>
+
+                    
+    </nav>
   )
 }
 

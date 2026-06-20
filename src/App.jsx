@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar"
+import Yourwork from "./components/Yourwork"
 import './index.css'
 
 
@@ -9,6 +10,7 @@ function App() {
     <>
     <Navbar />
     <Yourwork />
+  
   </>
   )
 }

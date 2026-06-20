@@ -18,7 +18,7 @@ const Navbar = () => {
                         <li> Pricing</li>
                         <li>FAQ</li>
                         </ul>
-                        <div className="flex items-center gap-10">
+                        <div className="flex items-center gap-6">
                             <span className="text-gray-700 font-medium">Sign in</span>
                             <button className="btn-primary">
                                 Start Free Trial

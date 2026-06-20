@@ -2,6 +2,9 @@ import React from 'react'
 import { IoIosAddCircle } from "react-icons/io";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { FaPlay } from "react-icons/fa6";
+import { IoShieldCheckmarkOutline } from "react-icons/io5";
+import { LuZap } from "react-icons/lu";
+import { HiOutlineUserGroup } from "react-icons/hi2";
 
 
 
@@ -30,8 +33,21 @@ const Yourwork = () => {
                             Start Free -No Card <FaLongArrowAltRight  size={22}/>
                         </button>
                         <button className="btn-secondary flex items-center gap-2">
-                            <FaPlay  size={20} /> See it in action
+                            <FaPlay  height="16" width="16" /> See it in action
                         </button>
+                        <div className="flex items-center gap-8 mt-10 text-gray-500 text-sm">
+                          
+                          <div className="flex items-center gap-2">
+                            <IoShieldCheckmarkOutline size={26} /> SOC 2 certified
+                            </div> 
+                        
+                        <div className="flex items-center gap-2">
+                           <LuZap  size={22}/> 99.9% Uptime SLA
+                        </div>
+                        <div className="flex items-center gap-2">
+                           <HiOutlineUserGroup size={22} /> 50k+ Teams
+                        </div>
+                     </div>
                     </div>
 
                 </div>

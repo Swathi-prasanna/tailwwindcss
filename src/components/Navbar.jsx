@@ -18,6 +18,10 @@ const Navbar = () => {
                         <li> Pricing</li>
                         <li>FAQ</li>
                         </ul>
+                        <div className="flex items-center gap-6">
+                            <span className="text-gray-700 font-medium">Sign in</span>
+                            
+                        </div>
 
                     
     </nav>

@@ -3,7 +3,7 @@ import Yourwork from "./components/Yourwork"
 import Trusted from "./components/Trusted"
 import MobileApp from "./components/MobileApp"
 import Connects from "./components/Connects"
-import FAQ from "./components/FAQ"
+import workflow from "./components/workflow"
 import './index.css'
 
 
@@ -17,7 +17,8 @@ function App() {
     <Trusted />
     <MobileApp />
     <Connects />
-    <FAQ />
+    <workflow />
+    
     
   
 

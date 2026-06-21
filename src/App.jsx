@@ -4,6 +4,7 @@ import Trusted from "./components/Trusted"
 import MobileApp from "./components/MobileApp"
 import Connects from "./components/Connects"
 import workflow from "./components/workflow"
+import Footer from "./components/Footer"
 import './index.css'
 
 
@@ -17,7 +18,7 @@ function App() {
     <Trusted />
     <MobileApp />
     <Connects />
-    <workflow />
+    <Footer />
     
     
   

@@ -43,16 +43,14 @@ const Platform = () =>{
             <br/>
             at every scale
         </h2>
-        <p classname="mt-6 text-gray-600 text-lg">
+        <p className="mt-6 text-gray-600 text-lg">
             Every feature is designed to reduce friction and surface what matters. No bloat, no configuration maze.
         </p>
     </div>
     
     <div className="mt-24 space-y-24">
         {features.map((item, index)=> (
-            <div 
-            key={index} 
-            className={`grid lg:grid-cols-2 gap-16 items-center ${item.reverse ? 'lg:flex-row-reverse' : ''}`}>
+            <div key={index}  className={`grid lg:grid-cols-2 gap-16 items-center ${item.reverse ? 'lg:flex-row-reverse' : ''}`}>
                 <div>
                     <p className="text-sm tracking-[2px] text-teal-700 font-semibold mb-4">{item.id}</p>
                     <h3 className="text-4xl font-bold leading-tight">{item.title}</h3>
@@ -69,7 +67,7 @@ const Platform = () =>{
                 </div>
                 <div className="card p-8">
                     <div className="grid grid-cols-2 gap-4 mb-4">
-                        <div className="p-5 rounded-2xl border border-gray-200">
+                        < className="p-5 rounded-2xl border border-gray-200">
                             <p className="text-xs text-gray-500">Monthly Revenue</p>
                             <p className="text-xl font-bold">$84.2k</p>
                             <div className="w-full h-1.5 bg-teal-700 rounded-full h-1.5 bg-teal-700 rounded-full mt-2"></div>
@@ -82,7 +80,8 @@ const Platform = () =>{
                                 {[
                                     {label: "Q3 report synced",status:"Done"},
                                     {label:"Team review pending", status:"Active"},
-                                    {label:"Analytics export",status:"Queued"}].map(task,i)=>(<div key={i}className="flex justify-between items-center p-3 bg-teal-700/5 rounded-xl">
+                                    {label:"Analytics export",status:"Queued"}].map(task, i) => (
+                                    <div key={i}className="flex justify-between items-center p-3 bg-teal-700/5 rounded-xl">
                                     <p className="text-sm">{task.label}</p>
                                     <span className={`text-xs px-2 py-1 rounded-full ${
                                     task.status === 'Done' ? 'bg-teal-700/20 text-teal-800':
@@ -96,10 +95,9 @@ const Platform = () =>{
                             </div>
                         </div>
                      ))}
-                    </div>
-                </div>
-        )}
-          </>
+            </div>
+        
+      </>
     </section>
     <section className="py-20 bg-gradient-to-b from-transparent to-white">
         <div className="container-custom">

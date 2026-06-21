@@ -7,6 +7,7 @@ import { IoLogoTiktok } from "react-icons/io5";
 
 function Footer() {
     const currentYear=new Date().getFullYear();
+
     return(
         <footer className="bg-[#021f1c] text-white">
             <div className="container-custom py-16">
@@ -27,6 +28,7 @@ function Footer() {
                         </div>
 
                     </div>
+                    <div>
                     <h3 className="text-xs font-semibold tracking-wider text-gray-500 uppercase mb-6">Product</h3>
                     <ul className="space-y-3">
                             <li className="text-gray-400 text-sm hover:text-gray-400 text-sm hover:text-white transition-colors cursor-pointer">Features</li>
@@ -36,7 +38,9 @@ function Footer() {
                             <li className="text-gray-400 text-sm hover:text-gray-400 text-sm hover:text-white transition-colors cursor-pointer">Changelog</li>
         
                     </ul>
+                    </div>
                 </div>
+
                 <div>
                     <h3 className="text-xs font-semibold tracking-wider text-gray-500 uppercase mb-6">Company</h3>
                     <ul className="space-y-3">
@@ -60,7 +64,7 @@ function Footer() {
                     </ul>
                     </div>
                     <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-                        <p className="text-xs text-gray-600">&copy{currentYear}Clearwave. Design by TemplateMo.</p>
+                        <p className="text-xs text-gray-600">&copy;{currentYear}Clearwave. Design by TemplateMo.</p>
                         <div className="flex gap-6 text-xs text-gray-600">
                             <span className="hover:text-gray-400 cursor-pointer">Privacy Policy</span>
                             <span className="hover:text-gray-400 cursor-pointer">Terms of Service</span>
@@ -71,3 +75,4 @@ function Footer() {
         </footer>
     )
 }
+export default footer;

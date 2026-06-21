@@ -37,6 +37,12 @@ const cards = [
 
 ];
   return (
+    <section className="py-12 bg-gradient-to-b from-white to=transparent">
+        <div className="container-custom">
+            <div className="h-1 bg-gradient-to -r from-transparent via-teal-700/20 to-transparent">
+            </div>
+        </div>
+    </section>
        
   )
 

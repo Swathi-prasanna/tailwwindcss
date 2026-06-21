@@ -28,7 +28,7 @@ const plans=[
             "SSO & audit logs",
         ],
         active:true,
-        buttontext:"Start Free Trial"
+        buttonText:"Start Free Trial"
     },
     {
         name:"Enterprise",
@@ -55,7 +55,7 @@ const plans=[
         </h2>
         <p className="mt-4 text-gray-500">No hidden fees. No surprise Overages. Cancel anytime.</p>
         <div className="mt-10 inline-flex items-center gap-4 bg-gray-100 rounded-full p-1">
-            <button on click={()=> setIsYearly(false)} className={`px-6 py-2 rounded-full text-sm font-semibold transition-all ${!isYearly ? 'bg-white shadow-sm' : 'text-gray-500'}`}>
+            <button onclick={()=> setIsYearly(false)} className={`px-6 py-2 rounded-full text-sm font-semibold transition-all ${!isYearly ? 'bg-white shadow-sm' : 'text-gray-500'}`}>
                 Monthly
             </button>
             <div className="flex items-center gap-1">

@@ -3,22 +3,26 @@
 @import "tailwindcss";
 
 :root{
-      --accent:#1A7A6E;
-      --accent-mid:#2A9D8F;
-      --accent-light:#5BBFB5;
+      --accent: #1A7A6E;
+      --accent-mid: #2A9D8F;
+      --accent-light: #5BBFB5;
+      --accent-extra-light: #d8eeec;
 
-      --text-1:#0D1E1C;
-      --text-2:#3A5C58;
-      --text-3:#6B8C88;
-      --border:rgba(13,30,28,0.08);
-      
+      --text-1: #0D1E1C;
+      --text-2: #3A5C58;
+      --text-3: #6B8C88;
+      --text-gray: #64748b;
+      --border: rgba(13,30,28,0.08);
+
+      --bg-light: #edf6f4;
+      --dark-bg: #021f1c;
 }
-.body{
+body{
   font-family:"DM Sans", sans-serif;
-  background:#edf6f4;
-  color:var(--text-1)
+  background: var(--bg-light);
+  color: var(--text-1);
 }
-.Playfair{
+.playfair{
   font-family:"Playfair Display", serif;
 }
 .container-custom{
@@ -33,4 +37,3 @@
 .card{
   @apply bg-white rounded-3xl shadow-sm border border-gray-100;
 }
-

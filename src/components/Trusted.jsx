@@ -8,7 +8,7 @@ import { TbBriefcase2Filled } from "react-icons/tb";
 
 
 const Trusted = () => {
-    const compaines = [
+    const companies = [
         {
             name:"Nexaflow",
             icon:<FaThLarge />
@@ -18,11 +18,11 @@ const Trusted = () => {
             icon:<FaRegClock />
         },
         {
-            name: "vanta Labs",
+            name: "Vanta Labs",
             icon:<FaPlay />
         },
         {
-            name:"plusar HQ",
+            name:"Pulsar HQ",
             icon:<FaSquare />
         },
         {
@@ -41,11 +41,11 @@ const Trusted = () => {
                 TRUSTED BY FORWARD THINKING TEAMS
             </p>
             <div className="flex flex-wrap justify-between items-center gap-6">
-                {compaines.map((item,index)=>(<div key={index} className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-xl border border-gray-300 flex items-center justify-center text-real-700 bg-white">
+                {companies.map((item,index)=>(<div key={index} className="flex items-center gap-3">
+                    <div className="w-7 h-10 rounded-xl border border-gray-300 flex items-center justify-center text-teal-700 bg-white">
                         {item.icon}
                     </div>
-                    <span className="text2xl font-semibold text-gray-600">
+                    <span className="text-1xl font-semibold text-gray-600">
                         {item.name}
                     </span>
                 </div>
